@@ -1,0 +1,51 @@
+@use './layout/credits' as *;
+@use './abstract/variables' as *;
+@use './abstract/mixins' as *;
+@use './base/fonts' as *;
+@use './componenets/button' as *;
+@use './componenets/modal' as *;
+@use './componenets/input' as *;
+@use './componenets/form' as *;
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: $color-background-main;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: $main-font-color;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding: 4%;
+  width: 100%;
+  margin: 0 auto;
+}

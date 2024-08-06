@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="./src/styles/main.scss" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таблица кредитов</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Потребительские кредиты</h2>
+      <div class="credits">
+        <div class="credits__headings credits__row">
+          <div>Название кредита</div>
+          <div>Ставка (%)</div>
+          <div>Срок (лет)</div>
+          <div>Оформить</div>
+        </div>
+        <div class="credits__credit credits__row">
+          <div class="credits__credit-title">На потребительские нужды</div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Ставка</p>
+            от 12.9%
+          </div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Срок</p>
+            до 7 лет
+          </div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Оформить</p>
+            <button class="button credits__button">Оформить заявку</button>
+          </div>
+        </div>
+        <div class="credits__credit credits__row">
+          <div class="credits__credit-title">Выручай</div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Ставка</p>
+            17.71%
+          </div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Срок</p>
+            до 5 лет
+          </div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Оформить</p>
+            <button class="button credits__button">Оформить заявку</button>
+          </div>
+        </div>
+        <div class="credits__credit credits__row">
+          <div class="credits__credit-title">Колибри</div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Ставка</p>
+            9.9%
+          </div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Срок</p>
+            до 5 лет
+          </div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Оформить</p>
+            <button class="button credits__button">Оформить заявку</button>
+          </div>
+        </div>
+        <div class="credits__credit credits__row">
+          <div class="credits__credit-title">Проще простого</div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Ставка</p>
+            17.71%
+          </div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Срок</p>
+            до 10 лет
+          </div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Оформить</p>
+            <button class="button credits__button">Оформить заявку</button>
+          </div>
+        </div>
+        <div class="credits__credit credits__row">
+          <div class="credits__credit-title">Большие возможности</div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Ставка</p>
+            16%
+          </div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Срок</p>
+            до 7 лет
+          </div>
+          <div class="credits__credit-cell">
+            <p class="credits__credit-caption">Оформить</p>
+            <button class="button credits__button">Оформить заявку</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal__wrapper">
+      <div class="modal">
+        <div class="modal__close-btn">✖</div>
+        <form class="form modal__form">
+          <p class="form__title">Оформить заявку на кредит</p>
+          <input
+            class="input"
+            type="text"
+            name="Имя"
+            placeholder="Имя"
+            required
+          />
+          <input
+            class="input"
+            type="text"
+            name="Телефон"
+            placeholder="Телефон"
+            required
+          />
+          <input
+            class="input"
+            type="email"
+            name="E-mail"
+            placeholder="E-mail"
+            required
+          />
+          <button type="submit" class="button form__button">
+            Отправить заявку
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
