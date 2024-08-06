@@ -11,4 +11,4 @@
 Проект содержит адаптивную таблицу кредитов со вслывающим модальным окном для отравки завки.
 При отравке данные из формы выводятся в консоль и модальное окно закрывается.
 
-**Deploy**: [dementeyolga.github.io/calculate-insurance-app/credit-table](https://dementeyolga.github.io/credit-table)
+**Deploy**: [credit-table.netlify.app/](https://credit-table.netlify.app/)
