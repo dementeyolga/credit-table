@@ -11,4 +11,4 @@
 Проект содержит адаптивную таблицу кредитов со вслывающим модальным окном для отравки завки.
 При отравке данные из формы выводятся в консоль и модальное окно закрывается.
 
-**Deploy**: [credit-table.netlify.app/](https://credit-table.netlify.app/)
+**Deploy**: [credit-table.netlify.app](https://credit-table.netlify.app/)
