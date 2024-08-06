@@ -1,7 +1,9 @@
 ### Таблица кредитов
 
 `npm run dev` - запустить dev сервер
+
 `npm run build` - сборка проекта
+
 `npm run preview` - локальный предпросмотр сборки
 
 **Стек**: HTML, SCSS, Typescript, Vite
